@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hall Of Fame</string>
+    <string name="hall_of_fame">Hall Of Fame</string>
+    <string name="inspiration">Inspiration</string>
+    <string name="top_3">TOP 3</string>
+
+    <string name="Description">Drazen Petrovic was a Yugoslavian and Croatian professional basketball player</string>
+    <string name="Description2">Dmitri Mendelejev was a Russian chemist and inventor</string>
+    <string name="Description3">John Lennon was an English singer, songwriter and peace activist who gained worldwide fame as the founder of Beatles</string>
+
+    <string name="Years1">1964.-1993.</string>
+    <string name="Years2">1834.-1907.</string>
+    <string name="Years3">1940.-1980.</string>
+
+    <string name="drazen_petrovic">Drazen Petrovic</string>
+    <string name="mendelejev">Dmitri Mendelejev</string>
+    <string name="john_lennon">John Lennon</string>
+
+    <string name="edit_description">Edit Description</string>
+
+    <string-array name="InterestingFacts">
+        <item>Drazen petrovic died in car accident</item>
+        <item>Mendeljejev was russian</item>
+        <item>John lennon was married with yoko ono</item>
+    </string-array>
+
+
+</resources>

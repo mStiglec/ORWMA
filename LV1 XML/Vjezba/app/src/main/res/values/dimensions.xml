@@ -1,0 +1,4 @@
+<resources>
+	<dimen name="dimen_headerFontSize">25sp</dimen>
+	<dimen name="dimen_headerMargin">25dp</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LV4_ZADACA_API</string>
+    <string name="search">Search</string>
+    <string name="enter_brand">Enter brand</string>
+</resources>

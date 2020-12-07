@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/grey_400"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Inspiration"
+        android:text="@string/inspiration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/Top3"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="@string/top_3"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_toEndOf="@id/Inspiration"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+
+
+        android:autofillHints=""
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/FirstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@id/Inspiration"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
+
+        >
+
+        <ImageView
+            android:id="@+id/FirstPicture"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/drazen_petrovic"
+
+            android:padding="10dp"
+            android:src="@mipmap/drazenpetrovic" />
+
+        <TextView
+            android:id="@+id/Name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/drazen_petrovic"
+            android:textSize="25sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/FirstPicture"
+
+            android:textStyle="bold"
+            android:textColor="@color/grey_800"
+
+            />
+
+        <TextView
+            android:id="@+id/FirstYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@id/FirstPicture"
+            android:layout_below="@id/Name1"
+
+            android:text="@string/Years1"
+
+            android:layout_marginStart="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/FirstDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Description"
+
+            android:layout_below="@id/FirstYear"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/FirstPicture"
+
+            android:ellipsize="end"
+            android:maxLines="3"
+
+             />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/SecondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/rounded"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/FirstLayout"
+        >
+
+        <ImageView
+            android:id="@+id/SecondPicture"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/mendelejev"
+
+            android:padding="10dp"
+            android:src="@mipmap/mendelejev" />
+
+        <TextView
+            android:id="@+id/Name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/mendelejev"
+            android:textSize="25sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/SecondPicture"
+
+            android:textStyle="bold"
+            android:textColor="@color/grey_800"
+
+            />
+
+        <TextView
+            android:id="@+id/SecondYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@id/SecondPicture"
+            android:layout_below="@id/Name2"
+
+            android:text="@string/Years2"
+
+            android:layout_marginStart="10dp"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/SecondDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Description2"
+
+            android:layout_below="@id/SecondYear"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/SecondPicture"
+
+            android:ellipsize="end"
+            android:maxLines="3"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ThirdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+
+        android:background="@drawable/rounded"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/SecondLayout"
+        >
+
+        <ImageView
+            android:id="@+id/ThirdPicture"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/john_lennon"
+
+            android:padding="10dp"
+            android:src="@mipmap/johnlennon" />
+
+        <TextView
+            android:id="@+id/Name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/john_lennon"
+            android:textSize="25sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/ThirdPicture"
+
+            android:textStyle="bold"
+            android:textColor="@color/grey_800"
+
+            />
+
+        <TextView
+            android:id="@+id/ThirdYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@id/ThirdPicture"
+            android:layout_below="@id/Name3"
+
+            android:text="@string/Years3"
+
+            android:layout_marginStart="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/ThirdDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Description3"
+
+            android:layout_below="@id/ThirdYear"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@id/ThirdPicture"
+
+            android:ellipsize="end"
+            android:maxLines="3"
+
+            />
+
+
+        </RelativeLayout>
+
+    <EditText
+        android:id="@+id/EditDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_description"
+        android:inputType="text"
+
+        android:layout_below="@id/ThirdLayout"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnEditDescription"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/edit_description"
+        android:layout_below="@id/EditDescription"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/Radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEditDescription"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/FirstRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:text="@string/drazen_petrovic"
+
+            />
+        <RadioButton
+            android:id="@+id/SecondRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:text="@string/mendelejev"
+
+            />
+
+        <RadioButton
+            android:id="@+id/ThirdRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:text="@string/john_lennon"
+            />
+    </RadioGroup>
+
+</RelativeLayout>
+

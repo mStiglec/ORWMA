@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ZADACA_LV7_FRAGMENTI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_message">Enter message</string>
+    <string name="submit">Submit</string>
+    <string name="changeable_text">Changeable text</string>
+    <string name="lastTABText">Zadnji TAB je tekst</string>
+    <string name="lastTABPicture">Zadnji tab je slika</string>
+    <string name="enter_text">Enter text</string>
+    <string name="enterBtn">Enter</string>
+    <string name="deleteBtn">Delete</string>
+</resources>

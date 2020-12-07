@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ZadacaLV6</string>
+    <string name="ferit">FERIT</string>
+    <string name="student_ed">Enter Student Name</string>
+    <string name="student_btn">Enter</string>
+</resources>
